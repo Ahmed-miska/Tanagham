@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tanagham/features/home_admin/home_admin_screen.dart';
+import 'package:tanagham/features/splash/splash_screen.dart';
 
 import 'package:tanagham/main.dart';
 
@@ -13,7 +13,7 @@ class Tanagham extends StatelessWidget {
       title: 'Tanagham',
       theme: ThemeData(),
       navigatorKey: navigator,
-      home: const HomeAdminScreen(),
+      home: const SplashScreen(),
     );
   }
 }
